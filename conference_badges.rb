@@ -24,6 +24,7 @@ def assign_rooms(attendees)
    counter = 1 
    attendees.each do |attendee| 
    puts "Hello, #{name}! You'll be assigned to room #{counter}!" 
+   counter =+ 1 
    end 
 end
 
