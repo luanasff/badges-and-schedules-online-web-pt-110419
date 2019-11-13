@@ -20,11 +20,10 @@ end
 
 
 
-def assign_rooms(names)
-  new_array=[]
-  counter = 1 
-  names.each do |name| 
-    new_array.push "Hello, #{name}! You'll be assigned to room #{counter}!" 
+def assign_rooms(attendees)
+   counter = 1 
+   attendees.each do |attendee| 
+   puts "Hello, #{name}! You'll be assigned to room #{counter}!" 
    end 
 end
 
