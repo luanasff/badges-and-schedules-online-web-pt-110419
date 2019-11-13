@@ -21,9 +21,11 @@ end
 
 
 def assign_rooms(names)
- names.map.with_index do |name, index|
-   puts "Hello,#{name}! You'll be assigned to room #{index+1}!"
-  end 
+  new_array=[]
+  counter = 1 
+  names.each do |name| 
+    new_array.push "Hello, #{name}! You'll be assigned to room #{counter}!" 
+   end 
 end
 
 
