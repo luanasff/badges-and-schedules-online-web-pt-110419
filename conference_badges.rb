@@ -38,6 +38,5 @@ attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   puts "Hello, #{attendee}! You'll be assigned to room #{counter}!"
   counter +=1 
   end
-
 end 
 
