@@ -21,7 +21,7 @@ end
 
 
 def assign_rooms(attendees)
- attendees.map_with_index
+ attendees.map.with_index dp |attendees,index|
   end
 end
 
